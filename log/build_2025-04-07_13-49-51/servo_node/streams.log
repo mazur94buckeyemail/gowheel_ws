@@ -1,0 +1,21 @@
+[3.259s] Invoking command in '/home/gowheel/gowheel_ws/src/servo_node': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/gowheel/gowheel_ws/build/servo_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowheel/gowheel_ws/install/servo_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/servo_node build --build-base /home/gowheel/gowheel_ws/build/servo_node/build install --record /home/gowheel/gowheel_ws/build/servo_node/install.log --single-version-externally-managed install_data
+[3.797s] running egg_info
+[3.826s] writing ../../build/servo_node/servo_node.egg-info/PKG-INFO
+[3.828s] writing dependency_links to ../../build/servo_node/servo_node.egg-info/dependency_links.txt
+[3.831s] writing entry points to ../../build/servo_node/servo_node.egg-info/entry_points.txt
+[3.831s] writing requirements to ../../build/servo_node/servo_node.egg-info/requires.txt
+[3.833s] writing top-level names to ../../build/servo_node/servo_node.egg-info/top_level.txt
+[3.893s] reading manifest file '../../build/servo_node/servo_node.egg-info/SOURCES.txt'
+[3.897s] writing manifest file '../../build/servo_node/servo_node.egg-info/SOURCES.txt'
+[3.898s] running build
+[3.898s] running build_py
+[3.901s] running install
+[3.916s] running install_lib
+[3.945s] running install_data
+[3.945s] running install_egg_info
+[3.976s] removing '/home/gowheel/gowheel_ws/install/servo_node/lib/python3.12/site-packages/servo_node-0.0.0-py3.12.egg-info' (and everything under it)
+[3.981s] Copying ../../build/servo_node/servo_node.egg-info to /home/gowheel/gowheel_ws/install/servo_node/lib/python3.12/site-packages/servo_node-0.0.0-py3.12.egg-info
+[3.988s] running install_scripts
+[4.277s] Installing servo_node script to /home/gowheel/gowheel_ws/install/servo_node/lib/servo_node
+[4.278s] writing list of installed files to '/home/gowheel/gowheel_ws/build/servo_node/install.log'
+[4.562s] Invoked command in '/home/gowheel/gowheel_ws/src/servo_node' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/gowheel/gowheel_ws/build/servo_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowheel/gowheel_ws/install/servo_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/servo_node build --build-base /home/gowheel/gowheel_ws/build/servo_node/build install --record /home/gowheel/gowheel_ws/build/servo_node/install.log --single-version-externally-managed install_data

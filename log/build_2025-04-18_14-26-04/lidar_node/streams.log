@@ -1,0 +1,17 @@
+[5.373s] Invoking command in '/home/gowheel/gowheel_ws/build/lidar_node': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/gowheel/gowheel_ws/build/lidar_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowheel/gowheel_ws/install/lidar_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/gowheel/gowheel_ws/build/lidar_node/build --no-deps symlink_data
+[6.307s] running develop
+[6.901s] running egg_info
+[6.950s] writing lidar_node.egg-info/PKG-INFO
+[6.951s] writing dependency_links to lidar_node.egg-info/dependency_links.txt
+[6.958s] writing entry points to lidar_node.egg-info/entry_points.txt
+[6.959s] writing requirements to lidar_node.egg-info/requires.txt
+[6.959s] writing top-level names to lidar_node.egg-info/top_level.txt
+[7.031s] reading manifest file 'lidar_node.egg-info/SOURCES.txt'
+[7.031s] writing manifest file 'lidar_node.egg-info/SOURCES.txt'
+[7.075s] running build_ext
+[7.075s] Creating /home/gowheel/gowheel_ws/install/lidar_node/lib/python3.12/site-packages/lidar-node.egg-link (link to .)
+[7.077s] Installing lidar_node script to /home/gowheel/gowheel_ws/install/lidar_node/lib/lidar_node
+[7.077s] 
+[7.077s] Installed /home/gowheel/gowheel_ws/build/lidar_node
+[7.078s] running symlink_data
+[7.255s] Invoked command in '/home/gowheel/gowheel_ws/build/lidar_node' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/gowheel/gowheel_ws/build/lidar_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowheel/gowheel_ws/install/lidar_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/gowheel/gowheel_ws/build/lidar_node/build --no-deps symlink_data

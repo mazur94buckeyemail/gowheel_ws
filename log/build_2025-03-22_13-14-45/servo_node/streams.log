@@ -1,0 +1,24 @@
+[2.851s] Invoking command in '/home/gowheel/gowheel_ws/build/servo_node': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/gowheel/gowheel_ws/build/servo_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowheel/gowheel_ws/install/servo_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/gowheel/gowheel_ws/build/servo_node/build --no-deps symlink_data
+[3.545s] running develop
+[3.871s] running egg_info
+[3.872s] creating servo_node.egg-info
+[3.909s] writing servo_node.egg-info/PKG-INFO
+[3.910s] writing dependency_links to servo_node.egg-info/dependency_links.txt
+[3.910s] writing entry points to servo_node.egg-info/entry_points.txt
+[3.912s] writing requirements to servo_node.egg-info/requires.txt
+[3.912s] writing top-level names to servo_node.egg-info/top_level.txt
+[3.912s] writing manifest file 'servo_node.egg-info/SOURCES.txt'
+[4.014s] reading manifest file 'servo_node.egg-info/SOURCES.txt'
+[4.017s] writing manifest file 'servo_node.egg-info/SOURCES.txt'
+[4.119s] running build_ext
+[4.123s] Creating /home/gowheel/gowheel_ws/install/servo_node/lib/python3.12/site-packages/servo-node.egg-link (link to .)
+[4.123s] Installing servo_node script to /home/gowheel/gowheel_ws/install/servo_node/lib/servo_node
+[4.123s] 
+[4.123s] Installed /home/gowheel/gowheel_ws/build/servo_node
+[4.123s] running symlink_data
+[4.123s] creating /home/gowheel/gowheel_ws/install/servo_node/share/ament_index
+[4.124s] creating /home/gowheel/gowheel_ws/install/servo_node/share/ament_index/resource_index
+[4.124s] creating /home/gowheel/gowheel_ws/install/servo_node/share/ament_index/resource_index/packages
+[4.124s] symbolically linking /home/gowheel/gowheel_ws/build/servo_node/resource/servo_node -> /home/gowheel/gowheel_ws/install/servo_node/share/ament_index/resource_index/packages
+[4.124s] symbolically linking /home/gowheel/gowheel_ws/build/servo_node/package.xml -> /home/gowheel/gowheel_ws/install/servo_node/share/servo_node
+[4.403s] Invoked command in '/home/gowheel/gowheel_ws/build/servo_node' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/gowheel/gowheel_ws/build/servo_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowheel/gowheel_ws/install/servo_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/gowheel/gowheel_ws/build/servo_node/build --no-deps symlink_data

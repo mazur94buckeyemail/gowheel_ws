@@ -1,0 +1,31 @@
+[3.365s] Invoking command in '/home/gowheel/gowheel_ws/build/lidar_node': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/gowheel/gowheel_ws/build/lidar_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowheel/gowheel_ws/install/lidar_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/gowheel/gowheel_ws/build/lidar_node/build
+[4.022s] running develop
+[4.374s] Removing /home/gowheel/gowheel_ws/install/lidar_node/lib/python3.12/site-packages/lidar-node.egg-link (link to .)
+[4.648s] Invoked command in '/home/gowheel/gowheel_ws/build/lidar_node' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/gowheel/gowheel_ws/build/lidar_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowheel/gowheel_ws/install/lidar_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/gowheel/gowheel_ws/build/lidar_node/build
+[4.652s] Invoking command in '/home/gowheel/gowheel_ws/src/lidar_node': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/gowheel/gowheel_ws/build/lidar_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowheel/gowheel_ws/install/lidar_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_node build --build-base /home/gowheel/gowheel_ws/build/lidar_node/build install --record /home/gowheel/gowheel_ws/build/lidar_node/install.log --single-version-externally-managed install_data --force
+[5.167s] running egg_info
+[5.194s] writing ../../build/lidar_node/lidar_node.egg-info/PKG-INFO
+[5.196s] writing dependency_links to ../../build/lidar_node/lidar_node.egg-info/dependency_links.txt
+[5.196s] writing entry points to ../../build/lidar_node/lidar_node.egg-info/entry_points.txt
+[5.197s] writing requirements to ../../build/lidar_node/lidar_node.egg-info/requires.txt
+[5.198s] writing top-level names to ../../build/lidar_node/lidar_node.egg-info/top_level.txt
+[5.265s] reading manifest file '../../build/lidar_node/lidar_node.egg-info/SOURCES.txt'
+[5.266s] writing manifest file '../../build/lidar_node/lidar_node.egg-info/SOURCES.txt'
+[5.266s] running build
+[5.266s] running build_py
+[5.276s] running install
+[5.282s] running install_lib
+[5.319s] creating /home/gowheel/gowheel_ws/install/lidar_node/lib/python3.12/site-packages/lidar_node
+[5.319s] copying /home/gowheel/gowheel_ws/build/lidar_node/build/lib/lidar_node/__init__.py -> /home/gowheel/gowheel_ws/install/lidar_node/lib/python3.12/site-packages/lidar_node
+[5.319s] copying /home/gowheel/gowheel_ws/build/lidar_node/build/lib/lidar_node/lidar_node.py -> /home/gowheel/gowheel_ws/install/lidar_node/lib/python3.12/site-packages/lidar_node
+[5.322s] byte-compiling /home/gowheel/gowheel_ws/install/lidar_node/lib/python3.12/site-packages/lidar_node/__init__.py to __init__.cpython-312.pyc
+[5.322s] byte-compiling /home/gowheel/gowheel_ws/install/lidar_node/lib/python3.12/site-packages/lidar_node/lidar_node.py to lidar_node.cpython-312.pyc
+[5.322s] running install_data
+[5.323s] copying resource/lidar_node -> /home/gowheel/gowheel_ws/install/lidar_node/share/ament_index/resource_index/packages
+[5.326s] copying package.xml -> /home/gowheel/gowheel_ws/install/lidar_node/share/lidar_node
+[5.330s] running install_egg_info
+[5.377s] Copying ../../build/lidar_node/lidar_node.egg-info to /home/gowheel/gowheel_ws/install/lidar_node/lib/python3.12/site-packages/lidar_node-0.0.0-py3.12.egg-info
+[5.379s] running install_scripts
+[5.673s] Installing lidar_node script to /home/gowheel/gowheel_ws/install/lidar_node/lib/lidar_node
+[5.677s] writing list of installed files to '/home/gowheel/gowheel_ws/build/lidar_node/install.log'
+[5.895s] Invoked command in '/home/gowheel/gowheel_ws/src/lidar_node' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/gowheel/gowheel_ws/build/lidar_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowheel/gowheel_ws/install/lidar_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_node build --build-base /home/gowheel/gowheel_ws/build/lidar_node/build install --record /home/gowheel/gowheel_ws/build/lidar_node/install.log --single-version-externally-managed install_data --force

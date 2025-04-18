@@ -1,0 +1,22 @@
+[3.237s] Invoking command in '/home/gowheel/gowheel_ws/src/robot_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/gowheel/gowheel_ws/build/robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowheel/gowheel_ws/install/robot_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_controller build --build-base /home/gowheel/gowheel_ws/build/robot_controller/build install --record /home/gowheel/gowheel_ws/build/robot_controller/install.log --single-version-externally-managed install_data
+[3.814s] running egg_info
+[3.841s] writing ../../build/robot_controller/robot_controller.egg-info/PKG-INFO
+[3.847s] writing dependency_links to ../../build/robot_controller/robot_controller.egg-info/dependency_links.txt
+[3.850s] writing entry points to ../../build/robot_controller/robot_controller.egg-info/entry_points.txt
+[3.852s] writing requirements to ../../build/robot_controller/robot_controller.egg-info/requires.txt
+[3.852s] writing top-level names to ../../build/robot_controller/robot_controller.egg-info/top_level.txt
+[3.919s] reading manifest file '../../build/robot_controller/robot_controller.egg-info/SOURCES.txt'
+[3.921s] writing manifest file '../../build/robot_controller/robot_controller.egg-info/SOURCES.txt'
+[3.921s] running build
+[3.921s] running build_py
+[3.924s] running install
+[3.934s] running install_lib
+[3.964s] running install_data
+[3.965s] running install_egg_info
+[3.998s] removing '/home/gowheel/gowheel_ws/install/robot_controller/lib/python3.12/site-packages/robot_controller-0.0.0-py3.12.egg-info' (and everything under it)
+[3.999s] Copying ../../build/robot_controller/robot_controller.egg-info to /home/gowheel/gowheel_ws/install/robot_controller/lib/python3.12/site-packages/robot_controller-0.0.0-py3.12.egg-info
+[4.004s] running install_scripts
+[4.325s] Installing controller_node script to /home/gowheel/gowheel_ws/install/robot_controller/lib/robot_controller
+[4.327s] Installing launch_node script to /home/gowheel/gowheel_ws/install/robot_controller/lib/robot_controller
+[4.329s] writing list of installed files to '/home/gowheel/gowheel_ws/build/robot_controller/install.log'
+[4.660s] Invoked command in '/home/gowheel/gowheel_ws/src/robot_controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/gowheel/gowheel_ws/build/robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowheel/gowheel_ws/install/robot_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_controller build --build-base /home/gowheel/gowheel_ws/build/robot_controller/build install --record /home/gowheel/gowheel_ws/build/robot_controller/install.log --single-version-externally-managed install_data

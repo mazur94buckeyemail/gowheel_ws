@@ -1,0 +1,17 @@
+[3.018s] Invoking command in '/home/gowheel/gowheel_ws/build/camera_node': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/gowheel/gowheel_ws/build/camera_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowheel/gowheel_ws/install/camera_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/gowheel/gowheel_ws/build/camera_node/build --no-deps symlink_data
+[3.756s] running develop
+[4.072s] running egg_info
+[4.099s] writing camera_node.egg-info/PKG-INFO
+[4.100s] writing dependency_links to camera_node.egg-info/dependency_links.txt
+[4.101s] writing entry points to camera_node.egg-info/entry_points.txt
+[4.102s] writing requirements to camera_node.egg-info/requires.txt
+[4.104s] writing top-level names to camera_node.egg-info/top_level.txt
+[4.187s] reading manifest file 'camera_node.egg-info/SOURCES.txt'
+[4.187s] writing manifest file 'camera_node.egg-info/SOURCES.txt'
+[4.264s] running build_ext
+[4.264s] Creating /home/gowheel/gowheel_ws/install/camera_node/lib/python3.12/site-packages/camera-node.egg-link (link to .)
+[4.268s] Installing camera_node script to /home/gowheel/gowheel_ws/install/camera_node/lib/camera_node
+[4.270s] 
+[4.271s] Installed /home/gowheel/gowheel_ws/build/camera_node
+[4.272s] running symlink_data
+[4.602s] Invoked command in '/home/gowheel/gowheel_ws/build/camera_node' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/gowheel/gowheel_ws/build/camera_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowheel/gowheel_ws/install/camera_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/gowheel/gowheel_ws/build/camera_node/build --no-deps symlink_data

@@ -1,0 +1,21 @@
+[3.281s] Invoking command in '/home/gowheel/gowheel_ws/src/camera_node': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/gowheel/gowheel_ws/build/camera_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowheel/gowheel_ws/install/camera_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_node build --build-base /home/gowheel/gowheel_ws/build/camera_node/build install --record /home/gowheel/gowheel_ws/build/camera_node/install.log --single-version-externally-managed install_data
+[3.829s] running egg_info
+[3.860s] writing ../../build/camera_node/camera_node.egg-info/PKG-INFO
+[3.861s] writing dependency_links to ../../build/camera_node/camera_node.egg-info/dependency_links.txt
+[3.863s] writing entry points to ../../build/camera_node/camera_node.egg-info/entry_points.txt
+[3.864s] writing requirements to ../../build/camera_node/camera_node.egg-info/requires.txt
+[3.865s] writing top-level names to ../../build/camera_node/camera_node.egg-info/top_level.txt
+[3.941s] reading manifest file '../../build/camera_node/camera_node.egg-info/SOURCES.txt'
+[3.943s] writing manifest file '../../build/camera_node/camera_node.egg-info/SOURCES.txt'
+[3.946s] running build
+[3.946s] running build_py
+[3.951s] running install
+[3.963s] running install_lib
+[3.993s] running install_data
+[3.994s] running install_egg_info
+[4.026s] removing '/home/gowheel/gowheel_ws/install/camera_node/lib/python3.12/site-packages/camera_node-0.0.0-py3.12.egg-info' (and everything under it)
+[4.026s] Copying ../../build/camera_node/camera_node.egg-info to /home/gowheel/gowheel_ws/install/camera_node/lib/python3.12/site-packages/camera_node-0.0.0-py3.12.egg-info
+[4.029s] running install_scripts
+[4.317s] Installing camera_node script to /home/gowheel/gowheel_ws/install/camera_node/lib/camera_node
+[4.319s] writing list of installed files to '/home/gowheel/gowheel_ws/build/camera_node/install.log'
+[4.674s] Invoked command in '/home/gowheel/gowheel_ws/src/camera_node' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/gowheel/gowheel_ws/build/camera_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowheel/gowheel_ws/install/camera_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_node build --build-base /home/gowheel/gowheel_ws/build/camera_node/build install --record /home/gowheel/gowheel_ws/build/camera_node/install.log --single-version-externally-managed install_data

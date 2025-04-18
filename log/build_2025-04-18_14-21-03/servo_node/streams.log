@@ -1,0 +1,17 @@
+[4.838s] Invoking command in '/home/gowheel/gowheel_ws/build/servo_node': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/gowheel/gowheel_ws/build/servo_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowheel/gowheel_ws/install/servo_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/gowheel/gowheel_ws/build/servo_node/build --no-deps symlink_data
+[6.245s] running develop
+[6.865s] running egg_info
+[6.905s] writing servo_node.egg-info/PKG-INFO
+[6.906s] writing dependency_links to servo_node.egg-info/dependency_links.txt
+[6.908s] writing entry points to servo_node.egg-info/entry_points.txt
+[6.909s] writing requirements to servo_node.egg-info/requires.txt
+[6.911s] writing top-level names to servo_node.egg-info/top_level.txt
+[7.079s] reading manifest file 'servo_node.egg-info/SOURCES.txt'
+[7.098s] writing manifest file 'servo_node.egg-info/SOURCES.txt'
+[7.154s] running build_ext
+[7.155s] Creating /home/gowheel/gowheel_ws/install/servo_node/lib/python3.12/site-packages/servo-node.egg-link (link to .)
+[7.155s] Installing servo_node script to /home/gowheel/gowheel_ws/install/servo_node/lib/servo_node
+[7.156s] 
+[7.156s] Installed /home/gowheel/gowheel_ws/build/servo_node
+[7.158s] running symlink_data
+[7.371s] Invoked command in '/home/gowheel/gowheel_ws/build/servo_node' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/gowheel/gowheel_ws/build/servo_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowheel/gowheel_ws/install/servo_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/gowheel/gowheel_ws/build/servo_node/build --no-deps symlink_data

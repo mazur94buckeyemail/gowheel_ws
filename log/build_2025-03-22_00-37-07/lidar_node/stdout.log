@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing lidar_node.egg-info/PKG-INFO
+writing dependency_links to lidar_node.egg-info/dependency_links.txt
+writing requirements to lidar_node.egg-info/requires.txt
+writing top-level names to lidar_node.egg-info/top_level.txt
+reading manifest file 'lidar_node.egg-info/SOURCES.txt'
+writing manifest file 'lidar_node.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/gowheel/gowheel_ws/install/lidar_node/lib/python3.12/site-packages/lidar-node.egg-link (link to .)
+
+Installed /home/gowheel/gowheel_ws/build/lidar_node
+running symlink_data
+symbolically linking /home/gowheel/gowheel_ws/build/lidar_node/resource/lidar_node -> /home/gowheel/gowheel_ws/install/lidar_node/share/ament_index/resource_index/packages
+symbolically linking /home/gowheel/gowheel_ws/build/lidar_node/package.xml -> /home/gowheel/gowheel_ws/install/lidar_node/share/lidar_node

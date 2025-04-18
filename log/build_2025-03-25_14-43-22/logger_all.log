@@ -1,0 +1,285 @@
+[0.474s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.474s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffa250c3b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa26c41a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa26c41a0>>, mixin_verb=('build',))
+[0.592s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.593s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.593s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.593s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.593s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.593s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.593s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/gowheel/gowheel_ws'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_node) by extensions ['ignore', 'ignore_ament_install']
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_node) by extension 'ignore'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_node) by extension 'ignore_ament_install'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_node) by extensions ['colcon_pkg']
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_node) by extension 'colcon_pkg'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_node) by extensions ['colcon_meta']
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_node) by extension 'colcon_meta'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_node) by extensions ['ros']
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_node) by extension 'ros'
+[0.658s] DEBUG:colcon.colcon_core.package_identification:Package 'src/camera_node' with type 'ros.ament_python' and name 'camera_node'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_node) by extensions ['ignore', 'ignore_ament_install']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_node) by extension 'ignore'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_node) by extension 'ignore_ament_install'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_node) by extensions ['colcon_pkg']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_node) by extension 'colcon_pkg'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_node) by extensions ['colcon_meta']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_node) by extension 'colcon_meta'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_node) by extensions ['ros']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_node) by extension 'ros'
+[0.660s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lidar_node' with type 'ros.ament_python' and name 'lidar_node'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller) by extension 'ignore'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller) by extension 'ignore_ament_install'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller) by extensions ['colcon_pkg']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller) by extension 'colcon_pkg'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller) by extensions ['colcon_meta']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller) by extension 'colcon_meta'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller) by extensions ['ros']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller) by extension 'ros'
+[0.662s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_controller' with type 'ros.ament_python' and name 'robot_controller'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_node) by extensions ['ignore', 'ignore_ament_install']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_node) by extension 'ignore'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_node) by extension 'ignore_ament_install'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_node) by extensions ['colcon_pkg']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_node) by extension 'colcon_pkg'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_node) by extensions ['colcon_meta']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_node) by extension 'colcon_meta'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_node) by extensions ['ros']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_node) by extension 'ros'
+[0.664s] DEBUG:colcon.colcon_core.package_identification:Package 'src/servo_node' with type 'ros.ament_python' and name 'servo_node'
+[0.664s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.665s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.665s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.665s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.665s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.706s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.707s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.712s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/gowheel/gowheel_ws/install
+[0.714s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 285 installed packages in /opt/ros/jazzy
+[0.717s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.781s] Level 5:colcon.colcon_core.verb:set package 'camera_node' build argument 'cmake_args' from command line to 'None'
+[0.781s] Level 5:colcon.colcon_core.verb:set package 'camera_node' build argument 'cmake_target' from command line to 'None'
+[0.781s] Level 5:colcon.colcon_core.verb:set package 'camera_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.781s] Level 5:colcon.colcon_core.verb:set package 'camera_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.781s] Level 5:colcon.colcon_core.verb:set package 'camera_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.781s] Level 5:colcon.colcon_core.verb:set package 'camera_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.781s] Level 5:colcon.colcon_core.verb:set package 'camera_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.781s] Level 5:colcon.colcon_core.verb:set package 'camera_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.781s] Level 5:colcon.colcon_core.verb:set package 'camera_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.781s] DEBUG:colcon.colcon_core.verb:Building package 'camera_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gowheel/gowheel_ws/build/camera_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gowheel/gowheel_ws/install/camera_node', 'merge_install': False, 'path': '/home/gowheel/gowheel_ws/src/camera_node', 'symlink_install': False, 'test_result_base': None}
+[0.781s] Level 5:colcon.colcon_core.verb:set package 'lidar_node' build argument 'cmake_args' from command line to 'None'
+[0.781s] Level 5:colcon.colcon_core.verb:set package 'lidar_node' build argument 'cmake_target' from command line to 'None'
+[0.781s] Level 5:colcon.colcon_core.verb:set package 'lidar_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.781s] Level 5:colcon.colcon_core.verb:set package 'lidar_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.782s] Level 5:colcon.colcon_core.verb:set package 'lidar_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.782s] Level 5:colcon.colcon_core.verb:set package 'lidar_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.782s] Level 5:colcon.colcon_core.verb:set package 'lidar_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.782s] Level 5:colcon.colcon_core.verb:set package 'lidar_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.782s] Level 5:colcon.colcon_core.verb:set package 'lidar_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.782s] DEBUG:colcon.colcon_core.verb:Building package 'lidar_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gowheel/gowheel_ws/build/lidar_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gowheel/gowheel_ws/install/lidar_node', 'merge_install': False, 'path': '/home/gowheel/gowheel_ws/src/lidar_node', 'symlink_install': False, 'test_result_base': None}
+[0.782s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'cmake_args' from command line to 'None'
+[0.782s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'cmake_target' from command line to 'None'
+[0.782s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.782s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.782s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.782s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.782s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.782s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.782s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.782s] DEBUG:colcon.colcon_core.verb:Building package 'robot_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gowheel/gowheel_ws/build/robot_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gowheel/gowheel_ws/install/robot_controller', 'merge_install': False, 'path': '/home/gowheel/gowheel_ws/src/robot_controller', 'symlink_install': False, 'test_result_base': None}
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'servo_node' build argument 'cmake_args' from command line to 'None'
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'servo_node' build argument 'cmake_target' from command line to 'None'
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'servo_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'servo_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'servo_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'servo_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'servo_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'servo_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'servo_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.783s] DEBUG:colcon.colcon_core.verb:Building package 'servo_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gowheel/gowheel_ws/build/servo_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gowheel/gowheel_ws/install/servo_node', 'merge_install': False, 'path': '/home/gowheel/gowheel_ws/src/servo_node', 'symlink_install': False, 'test_result_base': None}
+[0.783s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.784s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.785s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/gowheel/gowheel_ws/src/camera_node' with build type 'ament_python'
+[0.786s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_node', 'ament_prefix_path')
+[0.806s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.806s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gowheel/gowheel_ws/install/camera_node/share/camera_node/hook/ament_prefix_path.ps1'
+[0.808s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gowheel/gowheel_ws/install/camera_node/share/camera_node/hook/ament_prefix_path.dsv'
+[0.810s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gowheel/gowheel_ws/install/camera_node/share/camera_node/hook/ament_prefix_path.sh'
+[0.812s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.813s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.818s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/gowheel/gowheel_ws/src/lidar_node' with build type 'ament_python'
+[0.818s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_node', 'ament_prefix_path')
+[0.819s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gowheel/gowheel_ws/install/lidar_node/share/lidar_node/hook/ament_prefix_path.ps1'
+[0.820s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gowheel/gowheel_ws/install/lidar_node/share/lidar_node/hook/ament_prefix_path.dsv'
+[0.822s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gowheel/gowheel_ws/install/lidar_node/share/lidar_node/hook/ament_prefix_path.sh'
+[0.824s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.824s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.831s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/gowheel/gowheel_ws/src/robot_controller' with build type 'ament_python'
+[0.831s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_controller', 'ament_prefix_path')
+[0.831s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gowheel/gowheel_ws/install/robot_controller/share/robot_controller/hook/ament_prefix_path.ps1'
+[0.832s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gowheel/gowheel_ws/install/robot_controller/share/robot_controller/hook/ament_prefix_path.dsv'
+[0.833s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gowheel/gowheel_ws/install/robot_controller/share/robot_controller/hook/ament_prefix_path.sh'
+[0.835s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.835s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.843s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/gowheel/gowheel_ws/src/servo_node' with build type 'ament_python'
+[0.844s] Level 1:colcon.colcon_core.shell:create_environment_hook('servo_node', 'ament_prefix_path')
+[0.846s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gowheel/gowheel_ws/install/servo_node/share/servo_node/hook/ament_prefix_path.ps1'
+[0.848s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gowheel/gowheel_ws/install/servo_node/share/servo_node/hook/ament_prefix_path.dsv'
+[0.850s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gowheel/gowheel_ws/install/servo_node/share/servo_node/hook/ament_prefix_path.sh'
+[0.852s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.852s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.220s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/gowheel/gowheel_ws/src/camera_node'
+[1.220s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.220s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.552s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/gowheel/gowheel_ws/src/lidar_node'
+[1.552s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.552s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.899s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/gowheel/gowheel_ws/src/robot_controller'
+[1.899s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.899s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.243s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/gowheel/gowheel_ws/src/servo_node'
+[2.243s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.243s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.055s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gowheel/gowheel_ws/build/robot_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/gowheel/gowheel_ws/build/robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowheel/gowheel_ws/install/robot_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/gowheel/gowheel_ws/build/robot_controller/build
+[4.067s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gowheel/gowheel_ws/build/lidar_node': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/gowheel/gowheel_ws/build/lidar_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowheel/gowheel_ws/install/lidar_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/gowheel/gowheel_ws/build/lidar_node/build
+[4.076s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gowheel/gowheel_ws/build/camera_node': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/gowheel/gowheel_ws/build/camera_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowheel/gowheel_ws/install/camera_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/gowheel/gowheel_ws/build/camera_node/build
+[4.100s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gowheel/gowheel_ws/build/servo_node': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/gowheel/gowheel_ws/build/servo_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowheel/gowheel_ws/install/servo_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/gowheel/gowheel_ws/build/servo_node/build
+[5.375s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gowheel/gowheel_ws/build/lidar_node' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/gowheel/gowheel_ws/build/lidar_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowheel/gowheel_ws/install/lidar_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/gowheel/gowheel_ws/build/lidar_node/build
+[5.379s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gowheel/gowheel_ws/src/lidar_node': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/gowheel/gowheel_ws/build/lidar_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowheel/gowheel_ws/install/lidar_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_node build --build-base /home/gowheel/gowheel_ws/build/lidar_node/build install --record /home/gowheel/gowheel_ws/build/lidar_node/install.log --single-version-externally-managed install_data --force
+[5.382s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gowheel/gowheel_ws/build/robot_controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/gowheel/gowheel_ws/build/robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowheel/gowheel_ws/install/robot_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/gowheel/gowheel_ws/build/robot_controller/build
+[5.383s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gowheel/gowheel_ws/src/robot_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/gowheel/gowheel_ws/build/robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowheel/gowheel_ws/install/robot_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_controller build --build-base /home/gowheel/gowheel_ws/build/robot_controller/build install --record /home/gowheel/gowheel_ws/build/robot_controller/install.log --single-version-externally-managed install_data --force
+[5.385s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gowheel/gowheel_ws/build/camera_node' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/gowheel/gowheel_ws/build/camera_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowheel/gowheel_ws/install/camera_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/gowheel/gowheel_ws/build/camera_node/build
+[5.388s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gowheel/gowheel_ws/src/camera_node': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/gowheel/gowheel_ws/build/camera_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowheel/gowheel_ws/install/camera_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_node build --build-base /home/gowheel/gowheel_ws/build/camera_node/build install --record /home/gowheel/gowheel_ws/build/camera_node/install.log --single-version-externally-managed install_data --force
+[5.392s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gowheel/gowheel_ws/build/servo_node' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/gowheel/gowheel_ws/build/servo_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowheel/gowheel_ws/install/servo_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/gowheel/gowheel_ws/build/servo_node/build
+[5.392s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gowheel/gowheel_ws/src/servo_node': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/gowheel/gowheel_ws/build/servo_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowheel/gowheel_ws/install/servo_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/servo_node build --build-base /home/gowheel/gowheel_ws/build/servo_node/build install --record /home/gowheel/gowheel_ws/build/servo_node/install.log --single-version-externally-managed install_data --force
+[6.585s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gowheel/gowheel_ws/src/lidar_node' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/gowheel/gowheel_ws/build/lidar_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowheel/gowheel_ws/install/lidar_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_node build --build-base /home/gowheel/gowheel_ws/build/lidar_node/build install --record /home/gowheel/gowheel_ws/build/lidar_node/install.log --single-version-externally-managed install_data --force
+[6.604s] Level 1:colcon.colcon_core.environment:checking '/home/gowheel/gowheel_ws/install/lidar_node' for CMake module files
+[6.606s] Level 1:colcon.colcon_core.environment:checking '/home/gowheel/gowheel_ws/install/lidar_node' for CMake config files
+[6.608s] Level 1:colcon.colcon_core.environment:checking '/home/gowheel/gowheel_ws/install/lidar_node/lib'
+[6.608s] Level 1:colcon.colcon_core.environment:checking '/home/gowheel/gowheel_ws/install/lidar_node/bin'
+[6.609s] Level 1:colcon.colcon_core.environment:checking '/home/gowheel/gowheel_ws/install/lidar_node/lib/pkgconfig/lidar_node.pc'
+[6.609s] Level 1:colcon.colcon_core.environment:checking '/home/gowheel/gowheel_ws/install/lidar_node/lib/python3.12/site-packages'
+[6.610s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_node', 'pythonpath')
+[6.611s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gowheel/gowheel_ws/install/lidar_node/share/lidar_node/hook/pythonpath.ps1'
+[6.613s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gowheel/gowheel_ws/install/lidar_node/share/lidar_node/hook/pythonpath.dsv'
+[6.615s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gowheel/gowheel_ws/install/lidar_node/share/lidar_node/hook/pythonpath.sh'
+[6.617s] Level 1:colcon.colcon_core.environment:checking '/home/gowheel/gowheel_ws/install/lidar_node/bin'
+[6.618s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lidar_node)
+[6.619s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowheel/gowheel_ws/install/lidar_node/share/lidar_node/package.ps1'
+[6.622s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gowheel/gowheel_ws/install/lidar_node/share/lidar_node/package.dsv'
+[6.626s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowheel/gowheel_ws/install/lidar_node/share/lidar_node/package.sh'
+[6.630s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowheel/gowheel_ws/install/lidar_node/share/lidar_node/package.bash'
+[6.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowheel/gowheel_ws/install/lidar_node/share/lidar_node/package.zsh'
+[6.637s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gowheel/gowheel_ws/install/lidar_node/share/colcon-core/packages/lidar_node)
+[6.647s] Level 1:colcon.colcon_core.environment:checking '/home/gowheel/gowheel_ws/install/robot_controller' for CMake module files
+[6.648s] Level 1:colcon.colcon_core.environment:checking '/home/gowheel/gowheel_ws/install/robot_controller' for CMake config files
+[6.649s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gowheel/gowheel_ws/src/robot_controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/gowheel/gowheel_ws/build/robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowheel/gowheel_ws/install/robot_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_controller build --build-base /home/gowheel/gowheel_ws/build/robot_controller/build install --record /home/gowheel/gowheel_ws/build/robot_controller/install.log --single-version-externally-managed install_data --force
+[6.650s] Level 1:colcon.colcon_core.environment:checking '/home/gowheel/gowheel_ws/install/robot_controller/lib'
+[6.650s] Level 1:colcon.colcon_core.environment:checking '/home/gowheel/gowheel_ws/install/robot_controller/bin'
+[6.650s] Level 1:colcon.colcon_core.environment:checking '/home/gowheel/gowheel_ws/install/robot_controller/lib/pkgconfig/robot_controller.pc'
+[6.650s] Level 1:colcon.colcon_core.environment:checking '/home/gowheel/gowheel_ws/install/robot_controller/lib/python3.12/site-packages'
+[6.651s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_controller', 'pythonpath')
+[6.651s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gowheel/gowheel_ws/install/robot_controller/share/robot_controller/hook/pythonpath.ps1'
+[6.651s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gowheel/gowheel_ws/install/robot_controller/share/robot_controller/hook/pythonpath.dsv'
+[6.653s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gowheel/gowheel_ws/install/robot_controller/share/robot_controller/hook/pythonpath.sh'
+[6.654s] Level 1:colcon.colcon_core.environment:checking '/home/gowheel/gowheel_ws/install/robot_controller/bin'
+[6.654s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_controller)
+[6.655s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowheel/gowheel_ws/install/robot_controller/share/robot_controller/package.ps1'
+[6.655s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gowheel/gowheel_ws/install/robot_controller/share/robot_controller/package.dsv'
+[6.657s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowheel/gowheel_ws/install/robot_controller/share/robot_controller/package.sh'
+[6.658s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowheel/gowheel_ws/install/robot_controller/share/robot_controller/package.bash'
+[6.660s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowheel/gowheel_ws/install/robot_controller/share/robot_controller/package.zsh'
+[6.661s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gowheel/gowheel_ws/install/robot_controller/share/colcon-core/packages/robot_controller)
+[6.665s] Level 1:colcon.colcon_core.environment:checking '/home/gowheel/gowheel_ws/install/camera_node' for CMake module files
+[6.665s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gowheel/gowheel_ws/src/camera_node' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/gowheel/gowheel_ws/build/camera_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowheel/gowheel_ws/install/camera_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_node build --build-base /home/gowheel/gowheel_ws/build/camera_node/build install --record /home/gowheel/gowheel_ws/build/camera_node/install.log --single-version-externally-managed install_data --force
+[6.666s] Level 1:colcon.colcon_core.environment:checking '/home/gowheel/gowheel_ws/install/camera_node' for CMake config files
+[6.667s] Level 1:colcon.colcon_core.environment:checking '/home/gowheel/gowheel_ws/install/camera_node/lib'
+[6.667s] Level 1:colcon.colcon_core.environment:checking '/home/gowheel/gowheel_ws/install/camera_node/bin'
+[6.667s] Level 1:colcon.colcon_core.environment:checking '/home/gowheel/gowheel_ws/install/camera_node/lib/pkgconfig/camera_node.pc'
+[6.667s] Level 1:colcon.colcon_core.environment:checking '/home/gowheel/gowheel_ws/install/camera_node/lib/python3.12/site-packages'
+[6.668s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_node', 'pythonpath')
+[6.668s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gowheel/gowheel_ws/install/camera_node/share/camera_node/hook/pythonpath.ps1'
+[6.670s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gowheel/gowheel_ws/install/camera_node/share/camera_node/hook/pythonpath.dsv'
+[6.671s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gowheel/gowheel_ws/install/camera_node/share/camera_node/hook/pythonpath.sh'
+[6.673s] Level 1:colcon.colcon_core.environment:checking '/home/gowheel/gowheel_ws/install/camera_node/bin'
+[6.673s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_node)
+[6.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowheel/gowheel_ws/install/camera_node/share/camera_node/package.ps1'
+[6.676s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gowheel/gowheel_ws/install/camera_node/share/camera_node/package.dsv'
+[6.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowheel/gowheel_ws/install/camera_node/share/camera_node/package.sh'
+[6.678s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowheel/gowheel_ws/install/camera_node/share/camera_node/package.bash'
+[6.679s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowheel/gowheel_ws/install/camera_node/share/camera_node/package.zsh'
+[6.680s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gowheel/gowheel_ws/install/camera_node/share/colcon-core/packages/camera_node)
+[6.681s] Level 1:colcon.colcon_core.environment:checking '/home/gowheel/gowheel_ws/install/servo_node' for CMake module files
+[6.683s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gowheel/gowheel_ws/src/servo_node' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/gowheel/gowheel_ws/build/servo_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowheel/gowheel_ws/install/servo_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/servo_node build --build-base /home/gowheel/gowheel_ws/build/servo_node/build install --record /home/gowheel/gowheel_ws/build/servo_node/install.log --single-version-externally-managed install_data --force
+[6.684s] Level 1:colcon.colcon_core.environment:checking '/home/gowheel/gowheel_ws/install/servo_node' for CMake config files
+[6.685s] Level 1:colcon.colcon_core.environment:checking '/home/gowheel/gowheel_ws/install/servo_node/lib'
+[6.685s] Level 1:colcon.colcon_core.environment:checking '/home/gowheel/gowheel_ws/install/servo_node/bin'
+[6.685s] Level 1:colcon.colcon_core.environment:checking '/home/gowheel/gowheel_ws/install/servo_node/lib/pkgconfig/servo_node.pc'
+[6.685s] Level 1:colcon.colcon_core.environment:checking '/home/gowheel/gowheel_ws/install/servo_node/lib/python3.12/site-packages'
+[6.685s] Level 1:colcon.colcon_core.shell:create_environment_hook('servo_node', 'pythonpath')
+[6.685s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gowheel/gowheel_ws/install/servo_node/share/servo_node/hook/pythonpath.ps1'
+[6.686s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gowheel/gowheel_ws/install/servo_node/share/servo_node/hook/pythonpath.dsv'
+[6.687s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gowheel/gowheel_ws/install/servo_node/share/servo_node/hook/pythonpath.sh'
+[6.689s] Level 1:colcon.colcon_core.environment:checking '/home/gowheel/gowheel_ws/install/servo_node/bin'
+[6.689s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(servo_node)
+[6.689s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowheel/gowheel_ws/install/servo_node/share/servo_node/package.ps1'
+[6.690s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gowheel/gowheel_ws/install/servo_node/share/servo_node/package.dsv'
+[6.691s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowheel/gowheel_ws/install/servo_node/share/servo_node/package.sh'
+[6.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowheel/gowheel_ws/install/servo_node/share/servo_node/package.bash'
+[6.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowheel/gowheel_ws/install/servo_node/share/servo_node/package.zsh'
+[6.695s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gowheel/gowheel_ws/install/servo_node/share/colcon-core/packages/servo_node)
+[6.697s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.698s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.698s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.698s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.720s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.721s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.721s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.772s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.772s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gowheel/gowheel_ws/install/local_setup.ps1'
+[6.774s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/gowheel/gowheel_ws/install/_local_setup_util_ps1.py'
+[6.778s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gowheel/gowheel_ws/install/setup.ps1'
+[6.785s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gowheel/gowheel_ws/install/local_setup.sh'
+[6.787s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/gowheel/gowheel_ws/install/_local_setup_util_sh.py'
+[6.788s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gowheel/gowheel_ws/install/setup.sh'
+[6.790s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gowheel/gowheel_ws/install/local_setup.bash'
+[6.793s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gowheel/gowheel_ws/install/setup.bash'
+[6.796s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gowheel/gowheel_ws/install/local_setup.zsh'
+[6.799s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gowheel/gowheel_ws/install/setup.zsh'

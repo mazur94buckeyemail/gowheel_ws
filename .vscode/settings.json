@@ -1,0 +1,24 @@
+{
+  "python.autoComplete.extraPaths": [
+    "/home/gowheel/gowheel_ws/build/servo_node",
+    "/home/gowheel/gowheel_ws/install/servo_node/lib/python3.12/site-packages",
+    "/home/gowheel/gowheel_ws/build/robot_controller",
+    "/home/gowheel/gowheel_ws/install/robot_controller/lib/python3.12/site-packages",
+    "/home/gowheel/gowheel_ws/build/lidar_node",
+    "/home/gowheel/gowheel_ws/install/lidar_node/lib/python3.12/site-packages",
+    "/home/gowheel/gowheel_ws/build/camera_node",
+    "/home/gowheel/gowheel_ws/install/camera_node/lib/python3.12/site-packages",
+    "/opt/ros/jazzy/lib/python3.12/site-packages"
+  ],
+  "python.analysis.extraPaths": [
+    "/home/gowheel/gowheel_ws/build/servo_node",
+    "/home/gowheel/gowheel_ws/install/servo_node/lib/python3.12/site-packages",
+    "/home/gowheel/gowheel_ws/build/robot_controller",
+    "/home/gowheel/gowheel_ws/install/robot_controller/lib/python3.12/site-packages",
+    "/home/gowheel/gowheel_ws/build/lidar_node",
+    "/home/gowheel/gowheel_ws/install/lidar_node/lib/python3.12/site-packages",
+    "/home/gowheel/gowheel_ws/build/camera_node",
+    "/home/gowheel/gowheel_ws/install/camera_node/lib/python3.12/site-packages",
+    "/opt/ros/jazzy/lib/python3.12/site-packages"
+  ]
+}

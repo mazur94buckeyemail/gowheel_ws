@@ -1,0 +1,18 @@
+[2.724s] Invoking command in '/home/gowheel/gowheel_ws/build/robot_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/gowheel/gowheel_ws/build/robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowheel/gowheel_ws/install/robot_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/gowheel/gowheel_ws/build/robot_controller/build --no-deps symlink_data
+[3.363s] running develop
+[3.673s] running egg_info
+[3.706s] writing robot_controller.egg-info/PKG-INFO
+[3.707s] writing dependency_links to robot_controller.egg-info/dependency_links.txt
+[3.710s] writing entry points to robot_controller.egg-info/entry_points.txt
+[3.714s] writing requirements to robot_controller.egg-info/requires.txt
+[3.716s] writing top-level names to robot_controller.egg-info/top_level.txt
+[3.778s] reading manifest file 'robot_controller.egg-info/SOURCES.txt'
+[3.779s] writing manifest file 'robot_controller.egg-info/SOURCES.txt'
+[3.811s] running build_ext
+[3.812s] Creating /home/gowheel/gowheel_ws/install/robot_controller/lib/python3.12/site-packages/robot-controller.egg-link (link to .)
+[3.815s] Installing controller_node script to /home/gowheel/gowheel_ws/install/robot_controller/lib/robot_controller
+[3.817s] Installing launch_node script to /home/gowheel/gowheel_ws/install/robot_controller/lib/robot_controller
+[3.820s] 
+[3.820s] Installed /home/gowheel/gowheel_ws/build/robot_controller
+[3.824s] running symlink_data
+[4.095s] Invoked command in '/home/gowheel/gowheel_ws/build/robot_controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/gowheel/gowheel_ws/build/robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowheel/gowheel_ws/install/robot_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/gowheel/gowheel_ws/build/robot_controller/build --no-deps symlink_data

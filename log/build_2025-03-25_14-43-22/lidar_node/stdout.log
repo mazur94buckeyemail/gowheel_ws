@@ -1,0 +1,28 @@
+running develop
+Removing /home/gowheel/gowheel_ws/install/lidar_node/lib/python3.12/site-packages/lidar-node.egg-link (link to .)
+running egg_info
+writing ../../build/lidar_node/lidar_node.egg-info/PKG-INFO
+writing dependency_links to ../../build/lidar_node/lidar_node.egg-info/dependency_links.txt
+writing entry points to ../../build/lidar_node/lidar_node.egg-info/entry_points.txt
+writing requirements to ../../build/lidar_node/lidar_node.egg-info/requires.txt
+writing top-level names to ../../build/lidar_node/lidar_node.egg-info/top_level.txt
+reading manifest file '../../build/lidar_node/lidar_node.egg-info/SOURCES.txt'
+writing manifest file '../../build/lidar_node/lidar_node.egg-info/SOURCES.txt'
+running build
+running build_py
+copying lidar_node/lidar_node.py -> /home/gowheel/gowheel_ws/build/lidar_node/build/lib/lidar_node
+running install
+running install_lib
+creating /home/gowheel/gowheel_ws/install/lidar_node/lib/python3.12/site-packages/lidar_node
+copying /home/gowheel/gowheel_ws/build/lidar_node/build/lib/lidar_node/__init__.py -> /home/gowheel/gowheel_ws/install/lidar_node/lib/python3.12/site-packages/lidar_node
+copying /home/gowheel/gowheel_ws/build/lidar_node/build/lib/lidar_node/lidar_node.py -> /home/gowheel/gowheel_ws/install/lidar_node/lib/python3.12/site-packages/lidar_node
+byte-compiling /home/gowheel/gowheel_ws/install/lidar_node/lib/python3.12/site-packages/lidar_node/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/gowheel/gowheel_ws/install/lidar_node/lib/python3.12/site-packages/lidar_node/lidar_node.py to lidar_node.cpython-312.pyc
+running install_data
+copying resource/lidar_node -> /home/gowheel/gowheel_ws/install/lidar_node/share/ament_index/resource_index/packages
+copying package.xml -> /home/gowheel/gowheel_ws/install/lidar_node/share/lidar_node
+running install_egg_info
+Copying ../../build/lidar_node/lidar_node.egg-info to /home/gowheel/gowheel_ws/install/lidar_node/lib/python3.12/site-packages/lidar_node-0.0.0-py3.12.egg-info
+running install_scripts
+Installing lidar_node script to /home/gowheel/gowheel_ws/install/lidar_node/lib/lidar_node
+writing list of installed files to '/home/gowheel/gowheel_ws/build/lidar_node/install.log'
